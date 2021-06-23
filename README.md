@@ -10,4 +10,4 @@ After that, click here for our full project in google colab:
 
 We seperated this project into two parts:
 1) A CNN which locates the hand of the diver - using YOLOv5s object detection architecture (for more information visit https://github.com/ultralytics/yolov5).
-3) A CNN which classifies the gesture of the hand from the cropped image - using ower own architecture.
+3) A CNN which classifies the gesture of the hand from the cropped image - using our own architecture.
