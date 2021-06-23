@@ -13,3 +13,5 @@ We seperated this project into two parts:
 3) A CNN which classifies the gesture of the hand from the cropped image - using our own architecture.
 
 After training, the full network got 97.47% accuracy on the test set.
+
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/Network Architecture.jpg?raw=true)
