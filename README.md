@@ -28,7 +28,7 @@ Project site can be found here:
 http://www.caddy-fp7.eu/
 ![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
 
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/Caddy-video.mp4)
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/tut_track_anim.gif)
 We worked on an open access dataset provided by them at the website: 
 Draws inspiration from the Matlab implementation by "candtcat1992" - https://github.com/candycat1992/PencilDrawing
 
