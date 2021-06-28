@@ -17,35 +17,21 @@ After training, the full network got 97.47% accuracy on the test set.
 ![alt text](Network_Architecture.jpg?raw=true)
 
 
-
-## Underwater Gesture Classification Deep Learning Project
+# Underwater Gesture Classification Deep Learning Project
 Convolutional neural network designed to classify images of a diver hand signing the intended word.
 ### Inspired on the the CADDY project developing a diving assiting robot - the diver uses the CADDIAN sign language to commmunicate with the robot
 Project site can be found here:
 http://www.caddy-fp7.eu/
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
-
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/tut_track_anim.gif)
+![CADDY project](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
 
 We worked on an open access dataset provided by them at the website: http://www.caddian.eu/
 
 In this notebook, we will explain and implement the algorithm described in the paper. This is what we are trying to achieve:
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2test.png)
+![UP gesture](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2test.png)
 
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
+![Succesfull classification](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
 
-# pytorch-ls-dqn
-PyTorch implementation of Least-Squares DQN with extras (DuelingDQN, Boosted FQI)
-Based on the paper:
-Nir Levine, Tom Zahavy, Daniel J. Mankowitz, Aviv Tamar, Shie Mannor [Shallow Updates for Deep Reinforcement Learning](https://arxiv.org/abs/1705.07461), NIPS 2017
-Video:
-[YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
-![pong](https://github.com/taldatech/pytorch-ls-dqn/blob/master/images/pong.gif)
-![boxing](https://github.com/taldatech/pytorch-ls-dqn/blob/master/images/boxing.gif)
-
-[LS-DDPG](https://github.com/taldatech/pytorch-ls-ddpg) - https://github.com/taldatech/pytorch-ls-ddpg
-
-- [pytorch-ls-dqn](#pytorch-ls-dqn)
+- [pytorch-ls-dqn](#Underwater Gesture Classification Deep Learning Project)
   * [Background](#background)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
