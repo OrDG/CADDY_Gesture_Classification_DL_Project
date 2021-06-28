@@ -31,7 +31,7 @@ In this notebook, we will explain and implement the algorithm described in the p
 
 ![Succesfull classification](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
 
-- [pytorch-ls-dqn](#Underwater Gesture Classification Deep Learning Project)
+- [Project](#Underwater Gesture Classification Deep Learning Project)
   * [Background](#background)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
