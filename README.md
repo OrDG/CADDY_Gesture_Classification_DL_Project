@@ -18,16 +18,16 @@ After training, the full network got 97.47% accuracy on the test set.
 
 
 
-# # Underwater Gesture Classification Deep Learning Project
+## Underwater Gesture Classification Deep Learning Project
 Convolutional neural network designed to classify images of a diver hand signing to the intended word.
 ![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2test.png)
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
-### Based on the paper "Combining Sketch and Tone for Pencil Drawing Production" by Cewu Lu, Li Xu, Jiaya Jia
-#### International Symposium on Non-Photorealistic Animation and Rendering (NPAR 2012), June 2012
-Project site can be found here:
-http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm
 
-Paper PDF - http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/npar12_pencil.pdf
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
+### Based on the the CADDY project developing a diving assiting robot - the diver uses the CADDIAN sign language to commmunicate with the robot
+Project site can be found here:
+http://www.caddy-fp7.eu/
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY_Robot.jpg)
 
 Draws inspiration from the Matlab implementation by "candtcat1992" - https://github.com/candycat1992/PencilDrawing
 
