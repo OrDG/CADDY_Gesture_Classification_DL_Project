@@ -19,16 +19,17 @@ After training, the full network got 97.47% accuracy on the test set.
 
 
 ## Underwater Gesture Classification Deep Learning Project
-Convolutional neural network designed to classify images of a diver hand signing to the intended word.
+Convolutional neural network designed to classify images of a diver hand signing the intended word.
 ![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2test.png)
 
 ![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
-### Based on the the CADDY project developing a diving assiting robot - the diver uses the CADDIAN sign language to commmunicate with the robot
+### Inspired on the the CADDY project developing a diving assiting robot - the diver uses the CADDIAN sign language to commmunicate with the robot
 Project site can be found here:
 http://www.caddy-fp7.eu/
 ![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
-![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY_Robot.jpg)
 
+![alt text](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/Caddy-video.mp4)
+We worked on an open access dataset provided by them at the website: 
 Draws inspiration from the Matlab implementation by "candtcat1992" - https://github.com/candycat1992/PencilDrawing
 
 In this notebook, we will explain and implement the algorithm described in the paper. This is what we are trying to achieve:
