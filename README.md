@@ -49,6 +49,9 @@ In this notebook, we will explain and implement the algorithm described in the p
 
 Our goal is creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in different water conditions.
 
+![image](https://user-images.githubusercontent.com/35059685/123801212-bda00c00-d8f2-11eb-8a38-0904e3f01daa.png)
+
+
 ## Chosen Solution
 Localization - YOLOv5s
 classification - Our own CNN.
@@ -66,6 +69,10 @@ Results on the testset after training:
 Our CNN architecture is conventional. The network is built from 3 connected Conv blocks which increase the number of channels and decrease the size of each channel, and at the end are connected to three Fully Connected layers, and a Softmax for classification after that.  We use RelU activations and Adam optimizer. 
 
 ![image](https://user-images.githubusercontent.com/35059685/123799809-4158f900-d8f1-11eb-9dc5-e85f437deda9.png)
+
+Results on the testset after training:
+
+![image](https://user-images.githubusercontent.com/35059685/123801537-0ce63c80-d8f3-11eb-8105-17672f0c6681.png)
 
 
 ## Prerequisites
