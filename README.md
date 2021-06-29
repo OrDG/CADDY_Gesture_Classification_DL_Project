@@ -33,9 +33,10 @@ In this notebook, we will explain and implement the algorithm described in the p
 
 - Outline
   * [Background](#background)
+  * [Chosen Solution](#Chosen Solution)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
-  * [Usage ](#Usage)
+  * [Usage](#Usage)
   * [Playing](#playing)
   * [Training](#training)
   * [Playing Atari on Windows](#playing-atari-on-windows)
@@ -46,7 +47,25 @@ In this notebook, we will explain and implement the algorithm described in the p
 * CADDIAN is the sign language the diver uses to communicate with the robot.
 * One of the challenges of CADDY is Interpreting the hand gestures of the diver from a big unclear picture.
 * CNN is ideal for localization and for classifying images – translating CADDIAN to English!
-![image](https://user-images.githubusercontent.com/35059685/123792785-adcffa00-d8e9-11eb-80fd-6586cbbec1ee.png)
+
+Our goal is creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in different water conditions.
+
+## Chosen Solution
+Localization - YOLOv5s
+classification - Our own CNN.
+
+### YOLOv5s
+There is no published articles on YOLOv5, so we will show the architecture of YOLOv4, because it has many similarities to YOLOv5.
+![image](https://user-images.githubusercontent.com/35059685/123794270-56328e00-d8eb-11eb-95f8-9b4c86da7dc7.png)
+
+YOLO tipical results:
+![image](https://user-images.githubusercontent.com/35059685/123794450-867a2c80-d8eb-11eb-960a-b0cd5707f5a3.png)
+
+Results on the testset after training:
+![alt text](test_batch1_pred.jpg?raw=true)
+
+### Our own CNN
+
 
 ## Prerequisites
 |Library         | Version |
