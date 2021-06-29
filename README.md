@@ -90,5 +90,5 @@ If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete da
  After that, click here to use our full project in google colab:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
 
-# Reference
+# References
 [1] Alexey Bochkovskiy, Chien-Yao Wang, and HongYuan Mark Liao. “YOLOv4: Optimal speed and accuracy of object detection”. arXiv preprint arXiv:2004.10934, 2020. 
