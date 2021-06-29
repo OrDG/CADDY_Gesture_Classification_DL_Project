@@ -70,7 +70,7 @@ Our CNN architecture is conventional. The network is built from 3 connected Conv
 
 ![image](https://user-images.githubusercontent.com/35059685/123799809-4158f900-d8f1-11eb-9dc5-e85f437deda9.png)
 
-Results on the testset after training:
+Results on the testset after training (images already resized and normalizied):
 
 ![image](https://user-images.githubusercontent.com/35059685/123801537-0ce63c80-d8f3-11eb-8105-17672f0c6681.png)
 
