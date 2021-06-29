@@ -79,13 +79,13 @@ To use this project, you will need to download files and uplode them to a design
 If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete dataset – 2.5GB, zipped) to the designated folder from here:http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
  
  ### Using the trained networks
- To use our trained end-to-end network, you first need to download files (3)-(5) from this repo, and uplode them to the designated folder.
+ To use our trained end-to-end network, you will also need to download files (3)-(5) from this repo, and uplode them to the designated folder.
  
  Then you can use our example of running our fully trained network in google colab here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fvR3Y70IWimrEnJupQt2Bw9aRX8lGdr2?usp=sharing)
 
  ### Training the networks
- To train our end-to-end network, you first need to download file (3) from this repo, and uplode them to the designated folder.
+ To train our end-to-end network, you will also need to download file (3) from this repo, and uplode them to the designated folder.
  
  After that, click here to use our full project in google colab:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
