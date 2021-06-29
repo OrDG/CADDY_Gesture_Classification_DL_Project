@@ -64,11 +64,11 @@ Results on the testset after training (images already resized and normalizied):
 ## Files in the repository
 |File name         | Purpsoe |
 |----------------------|------|
-|(1)`ProjectDL7.ipynb`|main program for training and merging both networks|
-|(2)`caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
-|(3)`best.pt`| weights of the trained YOLOv5s on our dataset|
-|(4)`caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
-|(5)`final_classification`|folder that contains the results of our traind networks|
+|(1) `ProjectDL7.ipynb`|main program for training and merging both networks|
+|(2) `caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
+|(3) `best.pt`| weights of the trained YOLOv5s on our dataset|
+|(4) `caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
+|(5) `final_classification`|folder that contains the results of our traind networks|
 
 ## Usage
 To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
