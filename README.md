@@ -76,7 +76,7 @@ Results on the testset after training (images already resized and normalizied):
 ## Usage
 To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
 
-If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete dataset – 2.5GB, zipped) from here:http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
+If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete dataset – 2.5GB, zipped) to the designated folder from here:http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
  
  ### Using the trained networks
  To use our trained end-to-end network, you first need to download files (3)-(5) from this repo, and uplode them to the designated folder.
