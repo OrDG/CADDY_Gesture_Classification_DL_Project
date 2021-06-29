@@ -65,11 +65,12 @@ Results on the testset after training (images already resized and normalizied):
 ## Files in the repository
 |File name         | Purpsoe |
 |-----------------------|------|
-|(1) `ProjectDL7.ipynb`|main program for training and merging both networks|
-|(2) `caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
-|(3) `best.pt`| weights of the trained YOLOv5s on our dataset|
-|(4) `caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
-|(5)`final_classification`|folder that contains the results of our traind networks|
+|(1)`CADDYProjectDL.ipynb`|main program for training and merging both networks|
+|(2)`TestCADDYClassifier.ipynb`|main program for testing the trained end-to-end network|
+|(3)`caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
+|(4)`best.pt`| weights of the trained YOLOv5s on our dataset|
+|(5)`caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
+|(6)`final_classification`|folder that contains the results of our traind networks|
 
 ## Usage
 To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
@@ -77,13 +78,13 @@ To use this project, you will need to download files and uplode them to a design
 If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete dataset – 2.5GB, zipped) from here:http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
  
  ### Using the trained networks
- To use our trained end-to-end network, you first need to download files (2)-(4) from this repo, and uplode them to the designated folder.
+ To use our trained end-to-end network, you first need to download files (3)-(5) from this repo, and uplode them to the designated folder.
  
  Then you can use our example of running our fully trained network in google colab here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fvR3Y70IWimrEnJupQt2Bw9aRX8lGdr2?usp=sharing)
 
  ### Training the networks
- To train our end-to-end network, you first need to download file (2) from this repo, and uplode them to the designated folder.
+ To train our end-to-end network, you first need to download file (3) from this repo, and uplode them to the designated folder.
  
  After that, click here to use our full project in google colab:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
