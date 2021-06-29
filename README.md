@@ -31,7 +31,8 @@ creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, us
 
 ![image](https://user-images.githubusercontent.com/35059685/123801212-bda00c00-d8f2-11eb-8a38-0904e3f01daa.png)
 
-In this notebook, we will explain and implement the algorithm described in the paper. This is what we are trying to achieve:
+In this notebook, we will explain how we implemented the network. This is what we are trying to achieve:
+
 ![UP gesture](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2test.png)
 
 ![Succesfull classification](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
