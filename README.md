@@ -31,7 +31,7 @@ In this notebook, we will explain and implement the algorithm described in the p
 
 ![Succesfull classification](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
 
-- [Project](#Underwater Gesture Classification Deep Learning Project)
+- Outline
   * [Background](#background)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
@@ -42,13 +42,12 @@ In this notebook, we will explain and implement the algorithm described in the p
   * [TensorBoard](#tensorboard)
   * [References](#references)
 ## Background
-The idea of this algorithm is to combine between Deep RL (DRL) to Shallow RL (SRL), where in this case, we use Deep Q-Learning (DQN) as the DRL algorithm and
-Fitted Q-Iteration (FQI) as the SRL algorithm (which can be approximated using least-squares, full derivation is in the original paper).
-Every N_DRL (number of DQN backprop steps) we apply LS-UPDATE to the very last layer of the DQN, by using the complete Replay Buffer, a fetaure augmentation technique and
-Bayesian regularization (prevents overfitting, makes the LS matrix invertible) to solve the FQI equations.
-The assumptions are that the features extracted from the last layer form a rich representation, and that the large batch size used by the SRL algorithm improves stability and performance.
-In this work we added the derivations and approximations for Dueling DQN architecture and also added Boosted FQI as an optional SRL algorithm.
-For full derivations and theory, please refer to the original paper.
+* CADDY is a project focused on developing a robot that communicates with a diver and preforms tasks.
+* CADDIAN is the sign language the diver uses to communicate with the robot.
+* One of the challenges of CADDY is Interpreting the hand gestures of the diver from a big unclear picture.
+* CNN is ideal for localization and for classifying images – translating CADDIAN to English!
+![image](https://user-images.githubusercontent.com/35059685/123792785-adcffa00-d8e9-11eb-80fd-6586cbbec1ee.png)
+
 ## Prerequisites
 |Library         | Version |
 |----------------------|----|
