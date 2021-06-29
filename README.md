@@ -26,10 +26,6 @@ In this notebook, we will explain and implement the algorithm described in the p
   * [Results](#Results)
   * [Files in the repository](#files-in-the-repository)
   * [Usage](#Usage)
-  * [Playing](#playing)
-  * [Training](#training)
-  * [Playing Atari on Windows](#playing-atari-on-windows)
-  * [TensorBoard](#tensorboard)
   * [References](#references)
 ## Background
 * CADDY is a project focused on developing a robot that communicates with a diver and preforms tasks.
@@ -90,53 +86,6 @@ If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete da
  To train our end-to-end network, you first need to download file (2) from this repo, and uplode them to the designated folder.
  After that, click here to use our full project in google colab:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
-
-## Playing
-Agents checkpoints (files ending with `.pth`) are saved and loaded from the `agent_ckpt` directory.
-Playing a pretrained agent for one episode:
-
-`python ls_dqn_main.py --play -e pong -y ./agent_ckpt/pong_agent.pth --no-visualize`
-`python ls_dqn_main.py --play -e pong -y ./agent_ckpt/pong_agent.pth`
-
-If the checkpoint was trained using Dueling DQN:
-
-`python ls_dqn_main.py --play -e pong -f -y ./agent_ckpt/pong_agent.pth --no-visualize`
-`python ls_dqn_main.py --play -e pong -f -y ./agent_ckpt/pong_agent.pth`
-
-```python
-from PencilDrawingBySketchAndTone import *
-import matplotlib.pyplot as plt
-ex_img = io.imread('./inputs/11--128.jpg')
-pencil_tex = './pencils/pencil1.jpg'
-ex_im_pen = gen_pencil_drawing(ex_img, kernel_size=8, stroke_width=0, num_of_directions=8, smooth_kernel="gauss",
-                       gradient_method=0, rgb=True, w_group=2, pencil_texture_path=pencil_tex,
-                       stroke_darkness= 2,tone_darkness=1.5)
-plt.rcParams['figure.figsize'] = [16,10]
-plt.imshow(ex_im_pen)
-plt.axis("off")
-```
-## Training
-
-Examples:
-* `python ls_dqn_main.py --train --lsdqn -e boxing -l 10 -b 64`
-* `python ls_dqn_main.py --train --lsdqn --boosting --dueling -m -e boxing -l 1000 -b 64`
-For full description of the flags, see the full API.
-## Playing Atari on Windows
-You can train and play on a Windows machine, thanks to Nikita Kniazev, as follows from this post on [stackoverflow](https://stackoverflow.com/questions/42605769/openai-gym-atari-on-windows/46739299):
-`pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py` 
-## TensorBoard
-TensorBoard logs are written dynamically during the runs, and it possible to observe the training progress using the graphs. In order to open TensoBoard, navigate to the source directory of the project and in the terminal/cmd:
-`tensorboard --logdir=./runs`
-* make sure you have the correct environment activated (`conda activate env-name`) and that you have `tensorboard`, `tensorboardX` installed.
-## References
-* [PyTorch Agent Net: reinforcement learning toolkit for pytorch](https://github.com/Shmuma/ptan) by [Max Lapan](https://github.com/Shmuma)
-* Nir Levine, Tom Zahavy, Daniel J. Mankowitz, Aviv Tamar, Shie Mannor [Shallow Updates for Deep Reinforcement Learning](https://arxiv.org/abs/1705.07461), NIPS 2017
-
-* tone_darkness = as above
-
-# Folders
-* inputs: test images from the publishers' website: http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm
-* pencils: pencil textures for generating the Pencil Texture Map
 
 # Reference
 [1] Lu C, Xu L, Jia J. Combining sketch and tone for pencil drawing production[C]//Proceedings of the Symposium on Non-Photorealistic Animation and Rendering. Eurographics Association, 2012: 65-73.
