@@ -33,7 +33,7 @@ In this notebook, we will explain and implement the algorithm described in the p
 
 - Outline
   * [Background](#background)
-  * [Chosen Solution](#Chosen Solution)
+  * [Chosen Solution](#Chosen-Solution)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
   * [Usage](#Usage)
@@ -58,10 +58,6 @@ classification - Our own CNN.
 There is no published articles on YOLOv5, so we will show the architecture of YOLOv4, because it has many similarities to YOLOv5.
 
 ![image](https://user-images.githubusercontent.com/35059685/123794270-56328e00-d8eb-11eb-95f8-9b4c86da7dc7.png)
-
-YOLO tipical results:
-
-![image](https://user-images.githubusercontent.com/35059685/123794450-867a2c80-d8eb-11eb-960a-b0cd5707f5a3.png)
 
 Results on the testset after training:
 
