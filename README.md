@@ -41,7 +41,7 @@ Localization - YOLOv5s
 classification - Our own CNN.
 
 ### YOLOv5s
-There is no published articles on YOLOv5, so we will show the architecture of YOLOv4, because it has many similarities to YOLOv5.
+There is no published articles on YOLOv5, so we will show the architecture of YOLOv4[1], because it has many similarities to YOLOv5.
 
 ![image](https://user-images.githubusercontent.com/35059685/123794270-56328e00-d8eb-11eb-95f8-9b4c86da7dc7.png)
 
@@ -90,6 +90,4 @@ If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete da
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
 
 # Reference
-[1] Lu C, Xu L, Jia J. Combining sketch and tone for pencil drawing production[C]//Proceedings of the Symposium on Non-Photorealistic Animation and Rendering. Eurographics Association, 2012: 65-73.
-
-[2] Matlab implementation by "candtcat1992" - https://github.com/candycat1992/PencilDrawing
+[1] Alexey Bochkovskiy, Chien-Yao Wang, and HongYuan Mark Liao. “YOLOv4: Optimal speed and accuracy of object detection”. arXiv preprint arXiv:2004.10934, 2020. 
