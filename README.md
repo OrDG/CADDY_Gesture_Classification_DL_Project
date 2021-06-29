@@ -1,15 +1,5 @@
 # Underwater Gesture Classification Deep Learning Project
 This repository contains a project in Deep Learn created by @MatanTopel and I.
-To run this project, you will need to download the full CADDY dataset (Complete dataset – 2.5GB, zipped) from here:
-http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
-
-Then you will need to upload the zipped dataset and the yaml file from this repo to your Google Drive under a folder named : 'CADDY_stereo_gesture_data'
-
-After that, click here for our full project in google colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
-
-Here you can see an example of running our fully trained network in google colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fvR3Y70IWimrEnJupQt2Bw9aRX8lGdr2?usp=sharing)
 
 We seperated this project into two parts:
 1) A CNN which locates the hand of the diver - using YOLOv5s object detection architecture (for more information visit https://github.com/ultralytics/yolov5).
@@ -34,7 +24,6 @@ In this notebook, we will explain and implement the algorithm described in the p
   * [Background](#background)
   * [Chosen Solution](#Chosen-Solution)
   * [Results](#Results)
-  * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
   * [Usage](#Usage)
   * [Playing](#playing)
@@ -79,45 +68,28 @@ Results on the testset after training (images already resized and normalizied):
 
 ![image](https://user-images.githubusercontent.com/35059685/123802543-191ec980-d8f4-11eb-8f1f-c1237b961f19.png)
 
-
-## Prerequisites
-|Library         | Version |
-|----------------------|----|
-|`Python`|  `3.5.5 (Anaconda)`|
-|`torch`|  `0.4.1`|
-|`gym`|  `0.10.9`|
-|`tensorboard`|  `1.12.0`|
-|`tensorboardX`|  `1.5`|
 ## Files in the repository
 |File name         | Purpsoe |
 |----------------------|------|
-|`ls_dqn_main.py`| general purpose main application for training/playing a LS-DQN agent|
-|`pong_ls_dqn.py`| main application tailored for Atari's Pong|
-|`boxing_ls_dqn.py`| main application tailored for Atari's Boxing|
-|`dqn_play.py`| sample code for playing a game, also in `ls_dqn_main.py`|
-|`actions.py`| classes for actions selection (argmax, epsilon greedy)|
-|`agent.py`| agent class, holds the network, action selector and current state|
-|`dqn_model.py`| DQN classes, neural networks structures|
-|`experience.py`| Replay Buffer classes|
-|`hyperparameters.py`| hyperparameters for several Atari games, used as a baseline|
-|`srl_algorithms.py`| Shallow RL algorithms, LS-UPDATE|
-|`utils.py`| utility functions|
-|`wrappers.py`| DeepMind's wrappers for the Atari environments|
-|`*.pth`| Checkpoint files for the Agents (playing/continual learning)|
-|`Deep_RL_Shallow_Updates_for_Deep_Reinforcement_Learning.pdf`| Writeup - theory and results|
- ## Usage
-```python
-from PencilDrawingBySketchAndTone import *
-import matplotlib.pyplot as plt
-ex_img = io.imread('./inputs/11--128.jpg')
-pencil_tex = './pencils/pencil1.jpg'
-ex_im_pen = gen_pencil_drawing(ex_img, kernel_size=8, stroke_width=0, num_of_directions=8, smooth_kernel="gauss",
-                       gradient_method=0, rgb=True, w_group=2, pencil_texture_path=pencil_tex,
-                       stroke_darkness= 2,tone_darkness=1.5)
-plt.rcParams['figure.figsize'] = [16,10]
-plt.imshow(ex_im_pen)
-plt.axis("off")
-```
+|(1)`ProjectDL7.ipynb`|main program for training and merging both networks|
+|(2)`caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
+|(3)`best.pt`| weights of the trained YOLOv5s on our dataset|
+|(4)`caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
+|(5)`final_classification`|folder that contains the results of our traind networks|
+
+## Usage
+To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
+If you want to use the CADDY dataset, uplode the full CADDY dataset (Complete dataset – 2.5GB, zipped) from here:http://www.caddian.eu//CADDY-Underwater-Gestures-Dataset.html
+ 
+ ### Using the trained networks
+ To use our trained end-to-end network, you first need to download files (2)-(4) from this repo, and uplode them to the designated folder.
+ Then you can use our example of running our fully trained network in google colab here:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fvR3Y70IWimrEnJupQt2Bw9aRX8lGdr2?usp=sharing)
+
+ ### Training the networks
+ To train our end-to-end network, you first need to download file (2) from this repo, and uplode them to the designated folder.
+ After that, click here to use our full project in google colab:
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1agVUMEALmVCe9zGvnj-YYn6BJnqgz-Ij?usp=sharing)
 
 ## Playing
 Agents checkpoints (files ending with `.pth`) are saved and loaded from the `agent_ckpt` directory.
@@ -131,6 +103,18 @@ If the checkpoint was trained using Dueling DQN:
 `python ls_dqn_main.py --play -e pong -f -y ./agent_ckpt/pong_agent.pth --no-visualize`
 `python ls_dqn_main.py --play -e pong -f -y ./agent_ckpt/pong_agent.pth`
 
+```python
+from PencilDrawingBySketchAndTone import *
+import matplotlib.pyplot as plt
+ex_img = io.imread('./inputs/11--128.jpg')
+pencil_tex = './pencils/pencil1.jpg'
+ex_im_pen = gen_pencil_drawing(ex_img, kernel_size=8, stroke_width=0, num_of_directions=8, smooth_kernel="gauss",
+                       gradient_method=0, rgb=True, w_group=2, pencil_texture_path=pencil_tex,
+                       stroke_darkness= 2,tone_darkness=1.5)
+plt.rcParams['figure.figsize'] = [16,10]
+plt.imshow(ex_im_pen)
+plt.axis("off")
+```
 ## Training
 
 Examples:
