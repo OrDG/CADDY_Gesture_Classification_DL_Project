@@ -62,7 +62,7 @@ YOLO tipical results:
 ![image](https://user-images.githubusercontent.com/35059685/123794450-867a2c80-d8eb-11eb-960a-b0cd5707f5a3.png)
 
 Results on the testset after training:
-![alt text](test_batch1_pred.jpg?raw=true)
+![alt image](test_batch1_pred.jpg)
 
 ### Our own CNN
 
