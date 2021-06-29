@@ -24,7 +24,7 @@ After training, the full network got 97.85% accuracy on the test set.
 
 Project site can be found here:
 http://www.caddy-fp7.eu/
-![CADDY project](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
+![image](https://user-images.githubusercontent.com/35059685/123846029-8bf06a80-d91d-11eb-95f3-c24c001e53b4.png)
 
 ### Our goal
 creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in 8 different water conditions:
@@ -71,8 +71,7 @@ Results on the testset after training (images already resized and normalizied):
 |(3)`caddy_loc.yaml`| file containing the directories of the train/valid/test for the YOLOv5 and the num of classes (1 in our case)|
 |(4)`best.pt`| weights of the trained YOLOv5s on our dataset|
 |(5)`caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
-|(6)`final_classification`|folder that contains the results of our traind networks|
-|(7)`images`|folder that contains images used in this repository|
+|(6)`testset_results`|folder that contains the results of our traind networks on the testset|
 
 ## Usage
 To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
