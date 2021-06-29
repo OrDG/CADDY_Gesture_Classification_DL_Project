@@ -1,9 +1,9 @@
 # Underwater Gesture Classification Deep Learning Project
-This repository contains a project in Deep Learn created by @MatanTopel and I.
+This repository contains a project in Deep Learn created by @MatanTopel and myself.
 
 We seperated this project into two parts:
 1) A CNN which locates a hand of a diver - using YOLOv5s object detection architecture (for more information visit https://github.com/ultralytics/yolov5).
-3) A CNN which classifies the gesture of the hand from the cropped image - using our own architecture.
+2) A CNN which classifies the gesture of the hand from the cropped image - using our own architecture.
 
 After training, the full network got 97.85% accuracy on the test set.
 
@@ -19,12 +19,13 @@ After training, the full network got 97.85% accuracy on the test set.
 ### The CADDY project
 * CADDY is a project focused on developing a robot that communicates with a diver and preforms tasks.
 * CADDIAN is the sign language the diver uses to communicate with the robot.
+* One of the challenges of CADDY is Interpreting the hand gestures of the diver from a big unclear picture.
+* CNN is ideal for localization and for classifying images – translating CADDIAN to English!
+
 Project site can be found here:
 http://www.caddy-fp7.eu/
 ![CADDY project](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/main/CADDY.png)
 
-* One of the challenges of CADDY is Interpreting the hand gestures of the diver from a big unclear picture.
-* CNN is ideal for localization and for classifying images – translating CADDIAN to English!
 ### Our goal
 creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in 8 different water conditions:
 
