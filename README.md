@@ -64,6 +64,7 @@ YOLO tipical results:
 ![image](https://user-images.githubusercontent.com/35059685/123794450-867a2c80-d8eb-11eb-960a-b0cd5707f5a3.png)
 
 Results on the testset after training:
+
 ![image](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/8a7a5ea88b83ebe45d86709adb944f28d74d9b7b/final_classification/test_batch1_pred.jpg)
 
 ### Our own CNN
