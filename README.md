@@ -13,7 +13,7 @@ After training, the full network got 97.85% accuracy on the test set.
   * [Results](#Results)
   * [Files in the repository](#files-in-the-repository)
   * [Usage](#Usage)
-  * [References](#references)
+  * [References](#References)
 
 ## Background
 ### The CADDY project
