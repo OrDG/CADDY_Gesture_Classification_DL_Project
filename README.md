@@ -64,6 +64,9 @@ Results on the testset after training:
 ![image](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/8a7a5ea88b83ebe45d86709adb944f28d74d9b7b/final_classification/test_batch1_pred.jpg)
 
 ### Our own CNN
+Our CNN architecture is conventional. The network is built from 3 connected Conv blocks which increase the number of channels and decrease the size of each channel, and at the end are connected to three Fully Connected layers, and a Softmax for classification after that.  We use RelU activations and Adam optimizer. 
+
+![image](https://user-images.githubusercontent.com/35059685/123799809-4158f900-d8f1-11eb-9dc5-e85f437deda9.png)
 
 
 ## Prerequisites
