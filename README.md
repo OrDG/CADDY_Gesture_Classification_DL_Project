@@ -48,7 +48,7 @@ In this notebook, we will explain and implement the algorithm described in the p
 * One of the challenges of CADDY is Interpreting the hand gestures of the diver from a big unclear picture.
 * CNN is ideal for localization and for classifying images – translating CADDIAN to English!
 
-Our goal is creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in different water conditions:
+Our goal is creating a high accuracy CNN classifier of a diver’s gestures from CADDIAN, using stereo images taken underwater in 8 different water conditions:
 
 ![image](https://user-images.githubusercontent.com/35059685/123801212-bda00c00-d8f2-11eb-8a38-0904e3f01daa.png)
 
