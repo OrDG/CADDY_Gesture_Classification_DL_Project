@@ -33,6 +33,7 @@ In this notebook, we will explain and implement the algorithm described in the p
 - Outline
   * [Background](#background)
   * [Chosen Solution](#Chosen-Solution)
+  * [Results](#Results)
   * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
   * [Usage](#Usage)
@@ -73,6 +74,10 @@ Our CNN architecture is conventional. The network is built from 3 connected Conv
 Results on the testset after training (images already resized and normalizied):
 
 ![image](https://user-images.githubusercontent.com/35059685/123801537-0ce63c80-d8f3-11eb-8105-17672f0c6681.png)
+
+## Results
+
+![image](https://user-images.githubusercontent.com/35059685/123802543-191ec980-d8f4-11eb-8f1f-c1237b961f19.png)
 
 
 ## Prerequisites
