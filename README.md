@@ -37,8 +37,8 @@ In this notebook, we will explain and implement the algorithm described in the p
 ![Succesfull classification](https://github.com/OrDG/CADDY_Gesture_Classification_DL_Project/blob/9e952de64e97299119253718d96dffbed731e982/final_classification/in2teslabel.png)
 
 ## Chosen Solution
-Localization - YOLOv5s
-classification - Our own CNN.
+* Localization - YOLOv5s
+* classification - Our own CNN.
 
 ### YOLOv5s
 There is no published articles on YOLOv5, so we will show the architecture of YOLOv4[1], because it has many similarities to YOLOv5.
