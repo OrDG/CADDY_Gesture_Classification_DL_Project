@@ -72,6 +72,7 @@ Results on the testset after training (images already resized and normalizied):
 |(4)`best.pt`| weights of the trained YOLOv5s on our dataset|
 |(5)`caddy_cnn_ckpt1.pth`|weights of our trained CNN on our dataset|
 |(6)`testset_results`|folder that contains the results of our traind networks on the testset|
+|(7)`Underwater Hand Gesture Localization and Classification Using YOLOv5 and Other CNNs.pdf`|report of our project|
 
 ## Usage
 To use this project, you will need to download files and uplode them to a designated folder in your google drive named: 'CADDY_stereo_gesture_data'.
