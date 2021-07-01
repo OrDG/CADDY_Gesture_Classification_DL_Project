@@ -7,6 +7,8 @@ We seperated this project into two parts:
 
 After training, the full network got 97.85% accuracy on the test set.
 
+Here is a link to a video about our project (It's in low rez, we are working on  that): https://youtu.be/XiyP-1jyPso
+
 - Outline
   * [Background](#background)
   * [Chosen Solution](#Chosen-Solution)
